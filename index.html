@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Query</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Weather Query</h1>
+
+    <section class="card">
+      <label for="lat">Latitude</label>
+      <input id="lat" type="number" step="any" placeholder="e.g., 32.5252" />
+
+      <label for="lon">Longitude</label>
+      <input id="lon" type="number" step="any" placeholder="e.g., -93.7502" />
+
+      <button id="btn">Get Current Temperature</button>
+
+      <div id="result" class="result">
+        Enter coordinates and click the button.
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
